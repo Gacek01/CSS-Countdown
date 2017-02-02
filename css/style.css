@@ -1,0 +1,180 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	position: relative;
+	overflow: hidden;
+}
+
+.counter {
+	position: absolute;
+	background-color: black;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30vmin;
+	color: white;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-shadow: 0 0 8px white;
+	animation-iteration-count: 1;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	z-index: 1;
+	padding: 15%;
+}
+
+#element9 {
+	animation-delay: 1s;
+	animation-name: count1;
+}
+
+#element8 {
+	animation-delay: 2s;
+	animation-name: count2;
+}
+
+#element7 {
+	animation-delay: 3s;
+	animation-name: count3;
+}
+
+#element6 {
+	animation-delay: 4s;
+	animation-name: count4;
+}
+
+#element5 {
+	animation-delay: 5s;
+	animation-name: count5;
+}
+
+#element4 {
+	animation-delay: 6s;
+	animation-name: count6;
+}
+
+#element3 {
+	animation-delay: 7s;
+	animation-name: count7;
+}
+
+#element2 {
+	animation-delay: 8s;
+	animation-name: count8;
+}
+
+#element1 {
+	animation-delay: 9s;
+	animation-name: count9;
+}
+
+#element0 {
+	animation-delay: 10s;
+	animation-name: count10;
+	text-transform: uppercase;
+	color: red;
+	font-size: 20vmin;
+}
+
+
+/*Animacje / START*/
+
+@keyframes count1 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 2;
+	}
+}
+
+@keyframes count2 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 3;
+	}
+}
+
+@keyframes count3 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 4;
+	}
+}
+
+@keyframes count4 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 5;
+	}
+}
+
+@keyframes count5 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 6;
+	}
+}
+
+@keyframes count6 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 7;
+	}
+}
+
+@keyframes count7 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 8;
+	}
+}
+
+@keyframes count8 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 9;
+	}
+}
+
+@keyframes count9 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 10;
+	}
+}
+
+@keyframes count10 {
+	from {
+		z-index: 1;
+	}
+	to {
+		z-index: 11;
+	}
+}
+
+
+/*Animacje / STOP*/
